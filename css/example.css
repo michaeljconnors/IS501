@@ -1,0 +1,49 @@
+.body {
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    background-color: azure;
+    border:solid 2px white;
+    position: absolute;
+}
+
+.header { 
+    top: px;
+    left:5px;
+    right: 5px;
+    height: 100px;
+    text-align: right;
+}
+
+.leftmenu { 
+    top: 114px;
+    left:5px;
+    width: 100px;
+    bottom: 64px;
+}
+
+.mainbody { 
+    top: 114px;
+    bottom: 500px;
+    left: 114px;
+    right: 114px;
+}
+
+.rightmenu { 
+    top: 114px;
+    bottom: 500px; 
+    left: 5px;
+    right: 114px;
+}
+
+.footer { 
+    bottom: 5px;
+    left:5px;
+    right: 5px;
+    height: 50px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+}

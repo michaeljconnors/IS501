@@ -1,24 +1,34 @@
-<!-- Michael Connors Last Edit 3/14/2022 -->
 <html>
-<head>
-    <title> Tableua Dashboard</title>
-    <link href="../css/tableau.css" rel="stylesheet" type="text/css"/>
+<head> <!-- Michael Connors Last Edit 3/14/2022 --></head>
+    <title id='top'> Tableua Dashboard</title>
+    <link href="../css/bootstyles.css" rel="stylesheet" type="text/css"/>
     <body>
         <div class="common header headertext">
             <ul class = headertext>
                 <a href="../index.html">Home</a>  
                 <a href="about.html">About Me</a>  
-                <a href="tableau.html">Tableau Dashboard</a>  
+                <a href="tableau.html">Tableau</a>  
                 <a href="expertise.html">Expertise</a>
             </ul>
         </div>
         <div class="common leftmenu"></div>
         <div class="common rightmenu"></div>
-
         <div class="common mainbody">
-
+            <img src="../images/tab.jpg" height = "150" alt="Tableau" class="center">
+            <br>
+            <br>
+            <b>Please Select one of the following charts</b>
+            <br>
+                <ul> <a href="#viz1649794410484">Profit by State</a> </ul>
+                <ul>   <a href="#viz1649794816957">Highest Profit State by Month</a> </ul> 
+                <ul>    <a href="#viz1649795059919">Profits by Category in California</a> </ul>
+                <ul>   <a href="#viz1649795080216">Forecast</a> </ul>
+            <br>
+            <br>
+            <p><b>Profit by State</b></p>
+            <p>Below we see the highest profits coming from California and lowest from Texas.</p>
             <div class='tableauPlaceholder' id='viz1649794410484' style='position: center'><noscript>
-                <a href='#'><img alt='50 State Profit ' 
+                <a href='#'><img alt='Profit by State ' 
                     src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;F4&#47;F4KNCNXJ8&#47;1_rss.png' style='border: none' /></a>
                 </noscript>
                 <object class='tableauViz' style='display:none;'>
@@ -32,22 +42,25 @@
                     <param name='display_overlay' value='yes' />
                     <param name='display_count' value='yes' />
                     <param name='language' value='en-US' />
-                    <param name='filter' value='publish=yes' />
+                     <param name='filter' value='publish=yes' />
                 </object>
             </div> 
             <div class = "center">    
-            <script type='text/javascript'>                    
-                var divElement = document.getElementById('viz1649794410484');                    
-                var vizElement = divElement.getElementsByTagName('object')[0];                    
-                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-                var scriptElement = document.createElement('script');                    
-                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-            </script>
+                <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1649794410484');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
             </div> 
-
+            <br>
+            <br>
+            <p><b>Highest Profit State by Month</b></p>
+            <p>The highest profit state is California. Sales were very volatile.</p>
             <div class='tableauPlaceholder' id='viz1649794816957' style='position: relative'><noscript>
-                <a href='#'><img alt='Highest Profit State by Month ' 
+                <a href='#'><img alt='Highest Profit State by Month' 
                     src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Hi&#47;HighestProfitStateByMonth&#47;HighestProfitStatebyMonth&#47;1_rss.png' style='border: none' /></a>
                 </noscript><object class='tableauViz'  style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
@@ -65,20 +78,20 @@
                     <param name='filter' value='publish=yes' />
                 </object>
             </div>                
-            <script type='text/javascript'>                    
-                var divElement = document.getElementById('viz1649794816957');                    
-                var vizElement = divElement.getElementsByTagName('object')[0];                    
-                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-                var scriptElement = document.createElement('script');                    
-                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-            </script>
-        
-    </head>
-
-            <div class='tableauPlaceholder' id='viz1649795059919' style='position: relative'><noscript>
-                <a href='#'><img alt='Profits by Category in California ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsbyCategroyinCalifornia&#47;ProfitsbyCategoryinCalifornia&#47;1_rss.png' style='border: none' /></a>
-            </noscript>
+                <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1649794816957');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+                <br>
+                <p><b>Profits by Category in California</b></p>
+                <p>Office supplies and Technology overwhelmingly capture profits. Whereas Furniture is not as profitable.</p>
+                <div class='tableauPlaceholder' id='viz1649795059919' style='position: relative'><noscript>
+                    <a href='#'><img alt='Profits by Category in California' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsbyCategroyinCalifornia&#47;ProfitsbyCategoryinCalifornia&#47;1_rss.png' style='border: none' /></a>
+                </noscript>
                 <object class='tableauViz'  style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                     <param name='embed_code_version' value='3' /> 
@@ -90,18 +103,19 @@
                     <param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' />
                     <param name='filter' value='publish=yes' />
                 </object>
-            </div>                
-            <script type='text/javascript'>                    
-                var divElement = document.getElementById('viz1649795059919');                    
-                var vizElement = divElement.getElementsByTagName('object')[0];                    
-                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-                var scriptElement = document.createElement('script');                    
-                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-            </script>
-
-        <div class='tableauPlaceholder' id='viz1649795080216' style='position: relative'><noscript>
-            <a href='#'><img alt='Forecast ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;Forecast_16497942498060&#47;Forecast&#47;1_rss.png' style='border: none' /></a></noscript>
+                </div>                
+                <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1649795059919');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+            <p><b>Forecast</b></p>
+            <p>Below is a forecast of all the profits going into next year.</p>
+            <div class='tableauPlaceholder' id='viz1649795080216' style='position: relative'><noscript>
+                <a href='#'><img alt='Forecast ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;Forecast_16497942498060&#47;Forecast&#47;1_rss.png' style='border: none' /></a></noscript>
                 <object class='tableauViz'  style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                     <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
@@ -116,19 +130,28 @@
                     <param name='language' value='en-US' />
                     <param name='filter' value='publish=yes' />
                 </object>
-        </div>                
-            <script type='text/javascript'>                    
-                var divElement = document.getElementById('viz1649795080216');                    
-                var vizElement = divElement.getElementsByTagName('object')[0];                    
-                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-                var scriptElement = document.createElement('script');                    
-                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-            </script>
+            </div>                
+                <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1649795080216');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+            <a href="#top">Back to top</a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
     </body>
-    <a href="#top">Back to top</a>
     <div class="common footer">
-        www.mywebsite.copm | &copy;2022</div>
+        michaeljconnors14@gmail.com | 801-857-9052 | <a href="https://www.linkedin.com/in/michael-connors-62b24b26/">LinkedIn</a> | Copyright 2022  &copy;</div>
     <p>&nbsp;</p>
 </html>
